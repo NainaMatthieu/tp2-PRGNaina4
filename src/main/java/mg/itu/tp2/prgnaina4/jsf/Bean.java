@@ -1,6 +1,7 @@
 /**
  * Backing bean pour les page JSF  pour effectuer des opérations sur les nombres.
  *Portée : request
+ *
  * @author NainaMatthieu
  */
 package mg.itu.tp2.prgnaina4.jsf;
@@ -33,4 +34,7 @@ public class Bean {
         return l;
     }
 
+    public String afficher() {
+        return "affichage_3?nb=" + nombre + "&;faces-redirect=true";
+    }
 }
