@@ -41,4 +41,8 @@ public class Bean1 {
     public String retourFormulaire() {
         return "formulaire_4?nb=" + nombre + "&;faces-redirect=true";
     }
+    
+       public String afficherIntoTemplate() {
+        return "affichage__4?nb=" + nombre + "&;faces-redirect=true";
+    }
 }
